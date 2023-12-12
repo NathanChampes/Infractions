@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+}
+
+p {
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+.table ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+.table ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.table ul li:last-child {
+  border-bottom: none;
+}
+
+a {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #2d6d2f;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+body.dark-mode h1 {
+  color: #f0f0f0;
+}
+
+p.dark-mode {
+  color: #f0f0f0;
+}
+
+.table ul.dark-mode {
+  background-color: #444;
+}
+
+.table ul li.dark-mode {
+  border-bottom: 1px solid #888;
+}
+
+a.dark-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+a.dark-mode:hover {
+  background-color: #ccc;
+}
+
+#toggle-dark-mode {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#toggle-dark-mode:hover {
+  background-color: #555;
+}
+
+body.dark-mode #toggle-dark-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+body.dark-mode #toggle-dark-mode:hover {
+  background-color: #ccc;
+}
+
+
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+body.dark-mode h1 {
+    color: #f0f0f0;
+}
+
+p.dark-mode {
+    color: #f0f0f0;
+}
+
+.table ul.dark-mode {
+    background-color: #444;
+}
+
+.table ul li.dark-mode {
+    border-bottom: 1px solid #888;
+}
+
+a.dark-mode {
+    background-color: #90caf9;
+    color: #000;
+}
+
+a.dark-mode:hover {
+    background-color: #64b5f6;
+}
+
+
+#toggle-dark-mode {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #toggle-dark-mode:hover {
+    background-color: #555;
+  }
+  
+  body.dark-mode #toggle-dark-mode {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  body.dark-mode #toggle-dark-mode:hover {
+    background-color: #ccc;
+  }
